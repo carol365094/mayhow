@@ -1,0 +1,40 @@
+/* ### 版面設計 ###*/
+
+body {
+	margin: 24px 10px;
+	font-family: Arial, '新細明體', sans-serif;
+}
+
+
+#container {
+	width: 960px;
+	margin: auto;
+}
+
+header {
+	margin-bottom: 10px;
+}
+
+#headerpost {
+	margin-bottom: 30px;
+}
+
+#content {
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+.post {
+	float: left;
+	width: 216px;
+	margin-right: 32px;
+	margin-bottom: 25px;
+}
+
+.post:last-child {
+	margin-right: 0;
+}
+
+.post+.post+.post+.post {
+	margin-right: 0;
+}
